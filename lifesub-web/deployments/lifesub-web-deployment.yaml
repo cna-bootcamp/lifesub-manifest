@@ -14,16 +14,15 @@ spec:
         app: lifesub-web
     spec:
       containers:
-      - name: lifesub-web
-        image: dg0200cr.azurecr.io/lifesub/lifesub-web:1.0.0
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 18080
-        resources:
-          requests:
-            cpu: 256m
-            memory: 256Mi
-          limits:
-            cpu: 1024m
-            memory: 1024Mi
-            
+        - name: lifesub-web
+          image: dg0200cr.azurecr.io/lifesub/lifesub-web:20250217202235
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 18080
+          resources:
+            requests:
+              cpu: 256m
+              memory: 256Mi
+            limits:
+              cpu: 1024m
+              memory: 1024Mi
