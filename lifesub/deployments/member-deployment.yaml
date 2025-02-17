@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: member
-          image: dg0200cr.azurecr.io/lifesub/member:1.0.0
+          image: dg0200cr.azurecr.io/lifesub/member:20250217201223
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
