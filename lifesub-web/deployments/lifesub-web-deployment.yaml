@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: lifesub-web
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: lifesub-web
