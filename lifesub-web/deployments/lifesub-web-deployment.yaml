@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: lifesub-web
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: lifesub-web
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: lifesub-web
-        image: dg0200cr.azurecr.io/lifesub/lifesub-web:1.0.0
+        image: unicorncr.azurecr.io/lifesub/lifesub-web:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 18080

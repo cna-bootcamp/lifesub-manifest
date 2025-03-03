@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mysub
-          image: dg0200cr.azurecr.io/lifesub/mysub:20250217202840
+          image: unicorncr.azurecr.io/lifesub/mysub:20250217202840
           imagePullPolicy: Always
           ports:
             - containerPort: 8082

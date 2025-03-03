@@ -6,4 +6,4 @@ metadata:
 data:
   JPA_DDL_AUTO: update
   JPA_SHOW_SQL: "true"
-  ALLOWED_ORIGINS: "http://4.230.156.229"
+  ALLOWED_ORIGINS: "http://4.230.147.248"

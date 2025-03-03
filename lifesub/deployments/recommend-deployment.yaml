@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: recommend
-          image: dg0200cr.azurecr.io/lifesub/recommend:20250217202840
+          image: unicorncr.azurecr.io/lifesub/recommend:20250217202840
           imagePullPolicy: Always
           ports:
             - containerPort: 8083
