@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: lifesub-web
-        image: unicorncr.azurecr.io/lifesub/lifesub-web:20250303151911
+        image: unicorncr.azurecr.io/lifesub/lifesub-web:20250314165333
         imagePullPolicy: Always
         ports:
         - containerPort: 18080
